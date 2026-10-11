@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>MILONO organism mark</title>
+  <rect width="64" height="64" rx="12" fill="#000000"/>
+  <path d="M6 32Q6 24 13 19L26 10Q30 7 37 11L51 18Q56 21 56 28V45Q55 51 48 53L35 57Q29 58 23 54L11 47Q6 44 6 39Z" fill="#F3ECE4"/>
+  <path d="M34 28Q32 22 39 18L46 15 52 18Q57 21 57 29V44Q58 51 50 53L39 57Q33 58 33 50Z" fill="#CE6241"/>
+  <ellipse cx="48" cy="36" rx="14" ry="15" fill="#000000"/>
+  <ellipse cx="51" cy="36" rx="12" ry="14" fill="#F3ECE4"/>
+  <ellipse cx="52" cy="36" rx="8" ry="9" fill="#000000"/>
+</svg>

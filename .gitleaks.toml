@@ -1,0 +1,12 @@
+[extend]
+useDefault = true
+
+# Public localStorage namespace, not an API credential. Match only this exact
+# declaration in this exact source file; do not allow other KEY assignments.
+[[rules]]
+id = "generic-api-key"
+[[rules.allowlists]]
+condition = "AND"
+regexTarget = "line"
+paths = ['''^dist/assets/organism\.js$''']
+regexes = ['''^\s*const KEY = "(?:ameba|milono)\.simulation\.v2";\s*$''']

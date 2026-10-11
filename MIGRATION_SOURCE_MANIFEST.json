@@ -1,0 +1,997 @@
+{
+  "family": "ameba",
+  "title": "AMEBA",
+  "capturedAt": "2026-10-11T17:23:57.356945+00:00",
+  "layout": [
+    {
+      "source": "C:/Users/Administrator/Documents/ChatGPT/三毛/milno-clone",
+      "target": ".",
+      "reason": "Current main website source."
+    }
+  ],
+  "files": [
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\.github\\ISSUE_TEMPLATE\\bug_report.md",
+      "target": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "8cf9b5aac878c92a063961f0da140d810b36fac315c2aca2efbd2202e4daaba2",
+      "bytes": 892,
+      "originReportPath": "milno-clone/.github/ISSUE_TEMPLATE/bug_report.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\.github\\ISSUE_TEMPLATE\\feature_request.md",
+      "target": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha256": "2ea90d73e9f51363568aa52b9e532776c4f6093dcf243f74f7e507b03e476518",
+      "bytes": 548,
+      "originReportPath": "milno-clone/.github/ISSUE_TEMPLATE/feature_request.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\.github\\ISSUE_TEMPLATE\\research_proposal.md",
+      "target": ".github/ISSUE_TEMPLATE/research_proposal.md",
+      "sha256": "de91573d44e305b4511721aa3862c565f7ea7079881ae61cc6df3174457be999",
+      "bytes": 460,
+      "originReportPath": "milno-clone/.github/ISSUE_TEMPLATE/research_proposal.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\.github\\pull_request_template.md",
+      "target": ".github/pull_request_template.md",
+      "sha256": "5b8edee16d04c19ff4426e179eab51d073e6765907a904543f83521d293080dc",
+      "bytes": 823,
+      "originReportPath": "milno-clone/.github/pull_request_template.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\.github\\workflows\\ci.yml",
+      "target": ".github/workflows/ci.yml",
+      "sha256": "8c4329df54b6362a762ffdbc7d6eefd1397831adca01e728137f2e870c7c7efd",
+      "bytes": 2051,
+      "originReportPath": "milno-clone/.github/workflows/ci.yml"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\询问\\migration_github_staging\\ameba\\.gitignore",
+      "target": ".gitignore",
+      "sha256": "2c4129a5fbca037f5a07f0932499bf480193f74559731372d6b9bd22fabdcf37",
+      "bytes": 735,
+      "originReportPath": null,
+      "generated": true
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\.gitleaks.toml",
+      "target": ".gitleaks.toml",
+      "sha256": "c98d109deb1ed4f5f9edc83aa2ac3cc9a13c5b75c7b6a9817c705dc5d15ca426",
+      "bytes": 393,
+      "originReportPath": "milno-clone/.gitleaks.toml"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\.openai\\hosting.json",
+      "target": ".openai/hosting.json",
+      "sha256": "bd7ec0d7c75093099bf0934eb8419ba76d61d8eef6b0c8c1a96ede778ccc53b2",
+      "bytes": 112,
+      "originReportPath": "milno-clone/.openai/hosting.json"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\ARCHITECTURE.md",
+      "target": "ARCHITECTURE.md",
+      "sha256": "165254e43b2deee921e78981cef85183ed0a80d66640d2c498501a6c3cd15007",
+      "bytes": 8362,
+      "originReportPath": "milno-clone/ARCHITECTURE.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\CHANGELOG.md",
+      "target": "CHANGELOG.md",
+      "sha256": "542f5feb4fc80008b5dd73ee55ddb04bbb08676ff7df8f50e1c0a64a2f39e4e7",
+      "bytes": 2696,
+      "originReportPath": "milno-clone/CHANGELOG.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\CONTRIBUTING.md",
+      "target": "CONTRIBUTING.md",
+      "sha256": "b8327f70053678c6452cd6184c9e9cd9a81ab50c1c3e15fa19b025df927a0288",
+      "bytes": 4145,
+      "originReportPath": "milno-clone/CONTRIBUTING.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\INTERACTION.md",
+      "target": "INTERACTION.md",
+      "sha256": "36da5556119226702f84fcc4c15d34125137609f7d85f1e231336d220a7bd394",
+      "bytes": 3380,
+      "originReportPath": "milno-clone/INTERACTION.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\LICENSE",
+      "target": "LICENSE",
+      "sha256": "992b65ba3f8258555938c711ca03c1d7b447c83b788795e1c8bed1c071ac5335",
+      "bytes": 1096,
+      "originReportPath": "milno-clone/LICENSE"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\MAC_HANDOFF.md",
+      "target": "MAC_HANDOFF.md",
+      "sha256": "8b37faa9db7f5bf26cc542ab94fd9a0d5d4348efbce86201969bbadf98868fab",
+      "bytes": 15292,
+      "originReportPath": "milno-clone/MAC_HANDOFF.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\询问\\migration_github_staging\\ameba\\MAC_PROJECT_ENTRY.md",
+      "target": "MAC_PROJECT_ENTRY.md",
+      "sha256": "652fe2638af1d00f1c298972287bdca95f7c81c7b2bf3392df23acbd343422e6",
+      "bytes": 793,
+      "originReportPath": null,
+      "generated": true
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\NEW_MACHINE_SETUP.md",
+      "target": "NEW_MACHINE_SETUP.md",
+      "sha256": "72a1848232706508dd267c305d91898686db8e132912f7c6cca9812150344ac3",
+      "bytes": 1349,
+      "originReportPath": "milno-clone/NEW_MACHINE_SETUP.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\ORGANISM.md",
+      "target": "ORGANISM.md",
+      "sha256": "f3cc3915c7154da7ed551353b23b37749c94653d5d51314b56c5dbdfce6f61d6",
+      "bytes": 3658,
+      "originReportPath": "milno-clone/ORGANISM.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\PROTOCOL.md",
+      "target": "PROTOCOL.md",
+      "sha256": "b1ac7c3f98b9cc4b3ac72be03d216a8d603f33da9e9e4ea8cc45b0d47ee3c5bc",
+      "bytes": 9390,
+      "originReportPath": "milno-clone/PROTOCOL.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\README.md",
+      "target": "README.md",
+      "sha256": "eae746419a35981157c852b9471bb651463215e24a48a6711f635708c771189f",
+      "bytes": 9280,
+      "originReportPath": "milno-clone/README.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\SECURITY.md",
+      "target": "SECURITY.md",
+      "sha256": "fe89d9c96033a3e25b9d7126d7626b476166fdb0ae31555592cbd5fb61ee867e",
+      "bytes": 3306,
+      "originReportPath": "milno-clone/SECURITY.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\SIMULATION.md",
+      "target": "SIMULATION.md",
+      "sha256": "19082ec436b904d627b744b265566468d13969559836a6edb0014b8bf3e01101",
+      "bytes": 3346,
+      "originReportPath": "milno-clone/SIMULATION.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\SPECIMEN.md",
+      "target": "SPECIMEN.md",
+      "sha256": "d90393d2280beed7d182b4b1f48452e7840ba83141bd4faae42ebc6338e84e53",
+      "bytes": 3612,
+      "originReportPath": "milno-clone/SPECIMEN.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\THIRD_PARTY_NOTICES.md",
+      "target": "THIRD_PARTY_NOTICES.md",
+      "sha256": "c952c7e8e2989db93f2164ceaf5be20ce176a25605b1e383dc3b946b06411770",
+      "bytes": 4117,
+      "originReportPath": "milno-clone/THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\assets\\amoeba.js",
+      "target": "dist/assets/amoeba.js",
+      "sha256": "2cc220c6c11b630f263b2ecac6d40ada633b1628f0e827b8f163bcf7a40b44d3",
+      "bytes": 32565,
+      "originReportPath": "milno-clone/dist/assets/amoeba.js"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\assets\\amoeba.svg",
+      "target": "dist/assets/amoeba.svg",
+      "sha256": "6d312d8528721a94a13a25ea08384784a930e5bf809c45953684dba4c9e599a1",
+      "bytes": 422,
+      "originReportPath": "milno-clone/dist/assets/amoeba.svg"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\assets\\organism.js",
+      "target": "dist/assets/organism.js",
+      "sha256": "f6c0684fd0ebf3a34d2a31ee865f48307c2424770a6269d82080528960b18141",
+      "bytes": 27618,
+      "originReportPath": "milno-clone/dist/assets/organism.js"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\assets\\styles.css",
+      "target": "dist/assets/styles.css",
+      "sha256": "785f5a09c6ef3f12795e38814e8ebba8052bfec3caf4cb8eadd227726f4c5e17",
+      "bytes": 35892,
+      "originReportPath": "milno-clone/dist/assets/styles.css"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\assets\\visuals.js",
+      "target": "dist/assets/visuals.js",
+      "sha256": "86735b16b1ab60e35f86493a739a59c0d0cb78d639b67fd2384e0cb4d23cab3b",
+      "bytes": 48919,
+      "originReportPath": "milno-clone/dist/assets/visuals.js"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\apple-touch-icon.png",
+      "target": "dist/brand/apple-touch-icon.png",
+      "sha256": "a5554461bf2400b872ff520fdcb8ee5bc936152ac94b61d4297832e3fadd12c5",
+      "bytes": 5946,
+      "originReportPath": "milno-clone/dist/brand/apple-touch-icon.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\favicon-16.png",
+      "target": "dist/brand/favicon-16.png",
+      "sha256": "5ed15c2d84585ec8a40be27274b552fbe0d39c266f42e63ef40d366f56971d0c",
+      "bytes": 500,
+      "originReportPath": "milno-clone/dist/brand/favicon-16.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\favicon-32.png",
+      "target": "dist/brand/favicon-32.png",
+      "sha256": "bfd3365a09bbc6eea94583d266343071196ad2573314749b419719dcbcd0dc72",
+      "bytes": 1024,
+      "originReportPath": "milno-clone/dist/brand/favicon-32.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\favicon-48.png",
+      "target": "dist/brand/favicon-48.png",
+      "sha256": "65d1bf4a240e3626577db1317979b20ac529fcee0d31a534a06b41b97fad5ffc",
+      "bytes": 1489,
+      "originReportPath": "milno-clone/dist/brand/favicon-48.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\favicon.ico",
+      "target": "dist/brand/favicon.ico",
+      "sha256": "ebae0bbad476d478a27d5e252507eca6ac66a6ace302683c8160e456b40447c4",
+      "bytes": 3067,
+      "originReportPath": "milno-clone/dist/brand/favicon.ico"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\favicon.svg",
+      "target": "dist/brand/favicon.svg",
+      "sha256": "0e00eda37d3f611f305dfb1c0968998ed0e2c26cc71996071dcba213cc832478",
+      "bytes": 577,
+      "originReportPath": "milno-clone/dist/brand/favicon.svg"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\icon-192.png",
+      "target": "dist/brand/icon-192.png",
+      "sha256": "8b0779cc377d5443a593896e05a99684b0cfad4b98737a2c9121189490b43843",
+      "bytes": 5991,
+      "originReportPath": "milno-clone/dist/brand/icon-192.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\icon-512.png",
+      "target": "dist/brand/icon-512.png",
+      "sha256": "0db13322e3df1b97ccd000e640822e6b93d8a813fcecb24da69aff6f5e5832c3",
+      "bytes": 19358,
+      "originReportPath": "milno-clone/dist/brand/icon-512.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\milono-logo-full.png",
+      "target": "dist/brand/milono-logo-full.png",
+      "sha256": "56908d4d12a2c054f278a5d554f0b539885fc38dffd1eeb66b49e0b93436e32a",
+      "bytes": 92416,
+      "originReportPath": "milno-clone/dist/brand/milono-logo-full.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\milono-mark.png",
+      "target": "dist/brand/milono-mark.png",
+      "sha256": "4521151d50a244b1a2c860019cece093d471b14b54796ed2791cb10924422747",
+      "bytes": 827732,
+      "originReportPath": "milno-clone/dist/brand/milono-mark.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\brand\\og-image.png",
+      "target": "dist/brand/og-image.png",
+      "sha256": "67b5604861124312c44f1006492e3957d073123001c4ae32dc18e779244bd439",
+      "bytes": 79058,
+      "originReportPath": "milno-clone/dist/brand/og-image.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\favicon.ico",
+      "target": "dist/favicon.ico",
+      "sha256": "ebae0bbad476d478a27d5e252507eca6ac66a6ace302683c8160e456b40447c4",
+      "bytes": 3067,
+      "originReportPath": "milno-clone/dist/favicon.ico"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\index.html",
+      "target": "dist/index.html",
+      "sha256": "427a0dae5fbbdd4f1f517260cdf4ee64f1ed3656b7d76bd08d3e2d7724d07c2b",
+      "bytes": 34401,
+      "originReportPath": "milno-clone/dist/index.html"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\robots.txt",
+      "target": "dist/robots.txt",
+      "sha256": "f3c58d6a2a90e8b9bd88ae113f941b36d47f509e05a83d8577ea302361da8573",
+      "bytes": 64,
+      "originReportPath": "milno-clone/dist/robots.txt"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\site.webmanifest",
+      "target": "dist/site.webmanifest",
+      "sha256": "f3e0100881fff9d7cffd7fc9119e60efa4d40a104959bff2cb23a5d411a1e817",
+      "bytes": 497,
+      "originReportPath": "milno-clone/dist/site.webmanifest"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\sitemap.xml",
+      "target": "dist/sitemap.xml",
+      "sha256": "40e4809d58bf85f3e2009a4b330384223d89f81d5c864351045d0949373c93c9",
+      "bytes": 232,
+      "originReportPath": "milno-clone/dist/sitemap.xml"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\dist\\vercel.json",
+      "target": "dist/vercel.json",
+      "sha256": "745982ef0f5a849fb011e88dd704c15979c78c227492109fe2e35b56e039c6f2",
+      "bytes": 818,
+      "originReportPath": "milno-clone/dist/vercel.json"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\amoebic-body.md",
+      "target": "docs/amoebic-body.md",
+      "sha256": "3ad445c977d8544a78f1c87cb8b094927d43d51abe415ac875a31be3a98927d6",
+      "bytes": 8469,
+      "originReportPath": "milno-clone/docs/amoebic-body.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\animation-verification.md",
+      "target": "docs/animation-verification.md",
+      "sha256": "7ef44d250e7e2aed7d6c2effb846674c7cfc176836abe47e0e940c946ddfd285",
+      "bytes": 3849,
+      "originReportPath": "milno-clone/docs/animation-verification.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\assets\\research-console.png",
+      "target": "docs/assets/research-console.png",
+      "sha256": "6dbe2566b8c0f0746ecce5734cf41140baaf09137e6a11274d843e337330f6e4",
+      "bytes": 68020,
+      "originReportPath": "milno-clone/docs/assets/research-console.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\body-derivation.md",
+      "target": "docs/body-derivation.md",
+      "sha256": "a6bbdc8a55ab5f0016cbb6201622d8d580d0a2608490db49f40073ef5f9c4ce0",
+      "bytes": 2890,
+      "originReportPath": "milno-clone/docs/body-derivation.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\body-field.md",
+      "target": "docs/body-field.md",
+      "sha256": "7aba4856a8d12fa13e859ed0bc6c9699046c53ea3db5872031f973f15915bd5e",
+      "bytes": 1229,
+      "originReportPath": "milno-clone/docs/body-field.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\brand-migration.md",
+      "target": "docs/brand-migration.md",
+      "sha256": "201806781d0d7402e65398c4900bfb7d45301a429a6439836ce3cc2f8a1d2c67",
+      "bytes": 2055,
+      "originReportPath": "milno-clone/docs/brand-migration.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\brand-system.md",
+      "target": "docs/brand-system.md",
+      "sha256": "555ee242e18309db5affd19d32d6e703283bb74b3909d162f2bbfee74f63a1a5",
+      "bytes": 4206,
+      "originReportPath": "milno-clone/docs/brand-system.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\cryptobiosis.md",
+      "target": "docs/cryptobiosis.md",
+      "sha256": "3b7051fca14a5ea7e8e01dc80f727446ad55bad3926a0c720d51fd997906341a",
+      "bytes": 2117,
+      "originReportPath": "milno-clone/docs/cryptobiosis.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\development.md",
+      "target": "docs/development.md",
+      "sha256": "e49314b9cd08119250168e3343afc1ee7c63149015fe99d8d8dfec516a3087f1",
+      "bytes": 5741,
+      "originReportPath": "milno-clone/docs/development.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\identity.md",
+      "target": "docs/identity.md",
+      "sha256": "9f73f6e3626f84d423e6e735f65453b3e268b2c72d459050638c0280becbe7aa",
+      "bytes": 2988,
+      "originReportPath": "milno-clone/docs/identity.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\interaction-verification.md",
+      "target": "docs/interaction-verification.md",
+      "sha256": "099439323deaf637a1b535e74a4fa9ad41fb4a338ef3dd9d640e3c72f988db73",
+      "bytes": 4656,
+      "originReportPath": "milno-clone/docs/interaction-verification.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\lifecycle.md",
+      "target": "docs/lifecycle.md",
+      "sha256": "a70f9555da6d3efca514115e4de23cdc7ac04bb3f1c411a1dd0d033c9dc6f160",
+      "bytes": 3685,
+      "originReportPath": "milno-clone/docs/lifecycle.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\metabolism.md",
+      "target": "docs/metabolism.md",
+      "sha256": "da4a4e611ad1e2294d318d1123c452314c5078001055a00dbb963ccf234d804e",
+      "bytes": 2874,
+      "originReportPath": "milno-clone/docs/metabolism.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\morphology.md",
+      "target": "docs/morphology.md",
+      "sha256": "5882e542018854e3aa70b4330d99a7d0b4b4ec7e02971763161f55d1c88cb087",
+      "bytes": 1699,
+      "originReportPath": "milno-clone/docs/morphology.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\repository-audit.md",
+      "target": "docs/repository-audit.md",
+      "sha256": "25b161fe347459084472c2848276b4da4e0de212e136720631d236bb20d46e02",
+      "bytes": 2733,
+      "originReportPath": "milno-clone/docs/repository-audit.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\simulation.md",
+      "target": "docs/simulation.md",
+      "sha256": "ea0a9a25dbbfa34171e7e04784c9535891165e002f47c320c245d09db184785e",
+      "bytes": 4712,
+      "originReportPath": "milno-clone/docs/simulation.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\specimens.md",
+      "target": "docs/specimens.md",
+      "sha256": "80cda12fffe17c164cc4cb2a37b0f640b3665496c72f0fa2928bdb48c8593199",
+      "bytes": 1414,
+      "originReportPath": "milno-clone/docs/specimens.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\terminal.md",
+      "target": "docs/terminal.md",
+      "sha256": "658640ea2615919aaaa8115adc8516bdb9f63a1dbee30c365f255eef3d18e1f6",
+      "bytes": 2988,
+      "originReportPath": "milno-clone/docs/terminal.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\docs\\transition-ledger.md",
+      "target": "docs/transition-ledger.md",
+      "sha256": "4fb510ebf7cc712702099fbf147a2b95fe24c86bbdeb0f4e17572d3898d80c68",
+      "bytes": 2480,
+      "originReportPath": "milno-clone/docs/transition-ledger.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\package-lock.json",
+      "target": "package-lock.json",
+      "sha256": "6a01cdc3e7920cf2c8efaf6effb2c20b9c6dcc7044513cf9cbfc139040fc4eb9",
+      "bytes": 1819,
+      "originReportPath": "milno-clone/package-lock.json"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\package.json",
+      "target": "package.json",
+      "sha256": "43a34f108fd296849f4d47cc6b792024cb3cc92705a749702610bf0965fe4889",
+      "bytes": 665,
+      "originReportPath": "milno-clone/package.json"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\playwright.config.mjs",
+      "target": "playwright.config.mjs",
+      "sha256": "8978e4f82ce7f62a0945e29f1f902be9c627f5a8d154c93432b562c6db2483b0",
+      "bytes": 760,
+      "originReportPath": "milno-clone/playwright.config.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\NEW_MACHINE_SETUP.pre-mac-migration.txt",
+      "target": "qa/NEW_MACHINE_SETUP.pre-mac-migration.txt",
+      "sha256": "90fc9e1e4ab091f2f9566912d0c296160bce26e9ad22e2fd6a87ffcddad01631",
+      "bytes": 3199,
+      "originReportPath": "milno-clone/qa/NEW_MACHINE_SETUP.pre-mac-migration.txt"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\ameba-production-bottom.png",
+      "target": "qa/ameba-production-bottom.png",
+      "sha256": "587c965b4f67afc98461c5cf3e2b6db3827b45e0484c422aff97018c23d53a85",
+      "bytes": 54359,
+      "originReportPath": "milno-clone/qa/ameba-production-bottom.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\ameba-production-mobile.png",
+      "target": "qa/ameba-production-mobile.png",
+      "sha256": "8cb8281f52c8095d78a436f7410869ee848bf229b8a9079298ecc1009d4d9c75",
+      "bytes": 37350,
+      "originReportPath": "milno-clone/qa/ameba-production-mobile.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\ameba-production-top.png",
+      "target": "qa/ameba-production-top.png",
+      "sha256": "9aee83a80d02bac7976d80a2b81e34a45334f4d7096282afa0c08176e757ec1f",
+      "bytes": 57902,
+      "originReportPath": "milno-clone/qa/ameba-production-top.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\amoeba-body.png",
+      "target": "qa/amoeba-body.png",
+      "sha256": "d95da46d6d53071f78df564f9b7823ca85c72e2a99fc7df1ca338e21e7907cb5",
+      "bytes": 45722,
+      "originReportPath": "milno-clone/qa/amoeba-body.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\amoeba-comparison.png",
+      "target": "qa/amoeba-comparison.png",
+      "sha256": "fe5c1c810b4142e946d7e8c48453dcf0d153093ad14908dd87502aa879bf4d6d",
+      "bytes": 55566,
+      "originReportPath": "milno-clone/qa/amoeba-comparison.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\amoeba-desktop.png",
+      "target": "qa/amoeba-desktop.png",
+      "sha256": "feb6ff1cb29bbeab3dcfcab6242f6dc3f552479f86eef050fa9de45018d88ccf",
+      "bytes": 66760,
+      "originReportPath": "milno-clone/qa/amoeba-desktop.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\amoeba-hero.png",
+      "target": "qa/amoeba-hero.png",
+      "sha256": "f82c71fe39fc09250dbb508cf482fd77f4344bb7e1811639d9d257dcaea3d93a",
+      "bytes": 21039,
+      "originReportPath": "milno-clone/qa/amoeba-hero.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\amoeba-mobile.png",
+      "target": "qa/amoeba-mobile.png",
+      "sha256": "44122f04f4c385911315bd9d9f225faddf3ce51ca3b71c4ce2de892800b83cd5",
+      "bytes": 44856,
+      "originReportPath": "milno-clone/qa/amoeba-mobile.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\amoeba-states.png",
+      "target": "qa/amoeba-states.png",
+      "sha256": "91225f6fd5d9d6628ab649bef4729189f82221780437ae68e4aff606a3935e1e",
+      "bytes": 46528,
+      "originReportPath": "milno-clone/qa/amoeba-states.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\amoeba-stress.png",
+      "target": "qa/amoeba-stress.png",
+      "sha256": "bfd2f6fd2810616e7ccb1ca8e3bc411545d5523c469ca2e86124c9a0027c9d86",
+      "bytes": 67313,
+      "originReportPath": "milno-clone/qa/amoeba-stress.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\assess-motion.mjs",
+      "target": "qa/assess-motion.mjs",
+      "sha256": "1a7d91b43d7e77424c2c2c831649ed1dc877b3908fe8b487df2eac270585a38c",
+      "bytes": 2130,
+      "originReportPath": "milno-clone/qa/assess-motion.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\before-upgrade-full.png",
+      "target": "qa/before-upgrade-full.png",
+      "sha256": "579c83f2e3e3099e15f065bf2a42a7d546952325bf97b9279bd9e2ebd0900211",
+      "bytes": 285703,
+      "originReportPath": "milno-clone/qa/before-upgrade-full.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\brand-1366.png",
+      "target": "qa/brand-1366.png",
+      "sha256": "e45d326df823c39baa752de4eb02ffad1cd047f83afefccba367cc7637772110",
+      "bytes": 46031,
+      "originReportPath": "milno-clone/qa/brand-1366.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\brand-1440.png",
+      "target": "qa/brand-1440.png",
+      "sha256": "28a3c42db40167d9f0bb649f2720046cb613a9d1b82b57c00a8610595f1bbf25",
+      "bytes": 53074,
+      "originReportPath": "milno-clone/qa/brand-1440.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\brand-1920.png",
+      "target": "qa/brand-1920.png",
+      "sha256": "820115f477b75cac57493b936abe7b8eb7b1f2b8ef7dc9477a8009e33dea72b7",
+      "bytes": 68126,
+      "originReportPath": "milno-clone/qa/brand-1920.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\brand-375.png",
+      "target": "qa/brand-375.png",
+      "sha256": "9c80578d0fad9047b61c64ba9d3c87bfb9d0159d16ba23ad3f2b8da33d9d9d7d",
+      "bytes": 39930,
+      "originReportPath": "milno-clone/qa/brand-375.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\brand-body.png",
+      "target": "qa/brand-body.png",
+      "sha256": "543f810884e3c8b30a0df8acf770e914c5c28b82b8379a455539e882197e4be6",
+      "bytes": 74531,
+      "originReportPath": "milno-clone/qa/brand-body.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\brand-stress.png",
+      "target": "qa/brand-stress.png",
+      "sha256": "dbda3f764a454cb6984ce6dd988ce675fb3c8137780ec3863e5cc50f2a55d1aa",
+      "bytes": 49700,
+      "originReportPath": "milno-clone/qa/brand-stress.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\brand-terminal.png",
+      "target": "qa/brand-terminal.png",
+      "sha256": "75ac32bb57599d9f4a23758b4e3b5d748be135dbbd01c9174b6b08da1b5510bb",
+      "bytes": 51293,
+      "originReportPath": "milno-clone/qa/brand-terminal.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\capture-amoeba.mjs",
+      "target": "qa/capture-amoeba.mjs",
+      "sha256": "00655af53cb4f7d4e94c81b6a814fad1837ce8046ea19b8330b22f86bace536e",
+      "bytes": 2013,
+      "originReportPath": "milno-clone/qa/capture-amoeba.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\capture-brand.mjs",
+      "target": "qa/capture-brand.mjs",
+      "sha256": "6d0b60422ca8176d4f92eb162596402e95e889f5db66fc9d74b7bf20970009d1",
+      "bytes": 1753,
+      "originReportPath": "milno-clone/qa/capture-brand.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\check-milono-domain.mjs",
+      "target": "qa/check-milono-domain.mjs",
+      "sha256": "41739832cc11441ac61d67be22e29d973430db4af1bec7011b8958755a93c85e",
+      "bytes": 1038,
+      "originReportPath": "milno-clone/qa/check-milono-domain.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\favicon-review.png",
+      "target": "qa/favicon-review.png",
+      "sha256": "4f7be7f4247bde6728d35b0271ff2d8274ba29939c60385723351e44a814c225",
+      "bytes": 7742,
+      "originReportPath": "milno-clone/qa/favicon-review.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\full-upgrade-1440.png",
+      "target": "qa/full-upgrade-1440.png",
+      "sha256": "c3a5098c8685b6f33e48916628a6bdd7dd841fe5bb0aac0448213f6ab25233ba",
+      "bytes": 620006,
+      "originReportPath": "milno-clone/qa/full-upgrade-1440.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\full-upgrade-review.jpg",
+      "target": "qa/full-upgrade-review.jpg",
+      "sha256": "84e7087987d107ffe3f54015fb77ac47da0fa7f3033570461395fa2189176678",
+      "bytes": 154234,
+      "originReportPath": "milno-clone/qa/full-upgrade-review.jpg"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-audit.mjs",
+      "target": "qa/interaction-audit.mjs",
+      "sha256": "95bc5a749afedc2c092b79f861871bdc16826da8502d030c6bed9e570971fe6d",
+      "bytes": 5700,
+      "originReportPath": "milno-clone/qa/interaction-audit.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-awake.png",
+      "target": "qa/interaction-awake.png",
+      "sha256": "6c642ba31f20859a7231db6a7586bc7104d5abb03f8073082a19f7c5f4768703",
+      "bytes": 59462,
+      "originReportPath": "milno-clone/qa/interaction-awake.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-body-review.png",
+      "target": "qa/interaction-body-review.png",
+      "sha256": "7b7f963e92e773ad6440f0a6b9b2aacc0572b0d1ecc0d292e7afd8f9d5dbe3d9",
+      "bytes": 69394,
+      "originReportPath": "milno-clone/qa/interaction-body-review.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-click.png",
+      "target": "qa/interaction-click.png",
+      "sha256": "f84307984c70a964920a2e3649afae3eb3ea07dd6f1da25c30b2a29f410a89af",
+      "bytes": 47097,
+      "originReportPath": "milno-clone/qa/interaction-click.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-full-review-small.jpg",
+      "target": "qa/interaction-full-review-small.jpg",
+      "sha256": "c1fca10354c5aa204515d769180478fa25c6336961cac2c3793419c7e43b727d",
+      "bytes": 155817,
+      "originReportPath": "milno-clone/qa/interaction-full-review-small.jpg"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-full-review.png",
+      "target": "qa/interaction-full-review.png",
+      "sha256": "95db9eae42740bbb4c71fe3e14a4348a3539a1aa47a970f8192bdffb28f06738",
+      "bytes": 638637,
+      "originReportPath": "milno-clone/qa/interaction-full-review.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-idle-15s.png",
+      "target": "qa/interaction-idle-15s.png",
+      "sha256": "ffeb9e5a5fb7decec1a83c3b7dffc57d8ba110d4bdbe69b511972221db4adbad",
+      "bytes": 47088,
+      "originReportPath": "milno-clone/qa/interaction-idle-15s.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-idle-2s.png",
+      "target": "qa/interaction-idle-2s.png",
+      "sha256": "0db89ce8c46acaa66fe843990487d42f4b49634cfdc13c090e8b775fe91b3893",
+      "bytes": 48099,
+      "originReportPath": "milno-clone/qa/interaction-idle-2s.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-idle-start.png",
+      "target": "qa/interaction-idle-start.png",
+      "sha256": "254e0f3cc062d2cf257f583ff5cf6154693b25d0f7baa2bd293020b2803de32d",
+      "bytes": 47807,
+      "originReportPath": "milno-clone/qa/interaction-idle-start.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-left-drag.png",
+      "target": "qa/interaction-left-drag.png",
+      "sha256": "43a0c01af51cf500d22b2981bc65402ebcc36e165ba0d98f464c380dcd1977a5",
+      "bytes": 51102,
+      "originReportPath": "milno-clone/qa/interaction-left-drag.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-metabolism-review.png",
+      "target": "qa/interaction-metabolism-review.png",
+      "sha256": "ef70d7053ff4b314b0a7915133fb649a3dbd27e58bf08683befbf72b9a7bfd19",
+      "bytes": 53553,
+      "originReportPath": "milno-clone/qa/interaction-metabolism-review.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-released.png",
+      "target": "qa/interaction-released.png",
+      "sha256": "63983300c7fe2175a81baa40caa8341d8dc890d0f1f8c9afcdd24617cc174285",
+      "bytes": 46866,
+      "originReportPath": "milno-clone/qa/interaction-released.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-right-fast-drag.png",
+      "target": "qa/interaction-right-fast-drag.png",
+      "sha256": "9ae5a5b118a88158853c6d5c929270904e8da1c2621c947729d6ae69d936537f",
+      "bytes": 51983,
+      "originReportPath": "milno-clone/qa/interaction-right-fast-drag.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\interaction-stress-tun.png",
+      "target": "qa/interaction-stress-tun.png",
+      "sha256": "f7179151fecb28c458f2591cdbcfbdfab80b542d81e8cad55584bfb9ea5fdca8",
+      "bytes": 29091,
+      "originReportPath": "milno-clone/qa/interaction-stress-tun.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\live-specimen-slice.png",
+      "target": "qa/live-specimen-slice.png",
+      "sha256": "b9a36379c98f4d06036a780648c5ae2340cfb272ff2e4c7066fba2eb7450ce79",
+      "bytes": 43150,
+      "originReportPath": "milno-clone/qa/live-specimen-slice.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\mac-migration-20261011\\SHA256SUMS.txt",
+      "target": "qa/mac-migration-20261011/SHA256SUMS.txt",
+      "sha256": "72008218e624f9f010a2072944fe71e0c4f94aaadaa318b34784ded61b3427e2",
+      "bytes": 190,
+      "originReportPath": "milno-clone/qa/mac-migration-20261011/SHA256SUMS.txt"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\membrane-phases.png",
+      "target": "qa/membrane-phases.png",
+      "sha256": "0956e3824ba7bd31ebf84feee29e33ccffa16d41aff9f6028d4fafee5707b010",
+      "bytes": 156030,
+      "originReportPath": "milno-clone/qa/membrane-phases.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\migrate-brand.mjs",
+      "target": "qa/migrate-brand.mjs",
+      "sha256": "08bc1b253138db0e2e2f4c02d4c2ce3a3823f016b68fcca8e99edd440e021ac2",
+      "bytes": 4552,
+      "originReportPath": "milno-clone/qa/migrate-brand.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\migrate-domain.mjs",
+      "target": "qa/migrate-domain.mjs",
+      "sha256": "2ce85edf619c74c7de79b312291b3df6d10e2dbeb291d976eb320e5f3dbc912b",
+      "bytes": 593,
+      "originReportPath": "milno-clone/qa/migrate-domain.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\migrate-palette.mjs",
+      "target": "qa/migrate-palette.mjs",
+      "sha256": "fe1ab5d9aa57392ed6f1ba1846bc927626229ca4084a6ce8164da9b3459e6963",
+      "bytes": 3692,
+      "originReportPath": "milno-clone/qa/migrate-palette.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\milno-1440.png",
+      "target": "qa/milno-1440.png",
+      "sha256": "e6626c1e6ffe0084fe7e22ad5da73d4904d88fc1ac68f402dbc0c9e00c4cec00",
+      "bytes": 53272,
+      "originReportPath": "milno-clone/qa/milno-1440.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\milno-1920.png",
+      "target": "qa/milno-1920.png",
+      "sha256": "1b9c96318be49463002b583a928023d1ee8adb5dce7c8ecd17d2df8b5c9823a2",
+      "bytes": 72253,
+      "originReportPath": "milno-clone/qa/milno-1920.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\milno-430.png",
+      "target": "qa/milno-430.png",
+      "sha256": "ad5c511363e8159c2f99a0b399d83b9462c462f4af2292a6c05eb765c05c2f5f",
+      "bytes": 42499,
+      "originReportPath": "milno-clone/qa/milno-430.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\milno-desktop.png",
+      "target": "qa/milno-desktop.png",
+      "sha256": "4f17e697318fbe538fcb8e4ffe91e6afa319750b2a4e1cb1caaf914fdfa4b666",
+      "bytes": 89846,
+      "originReportPath": "milno-clone/qa/milno-desktop.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\milno-full.png",
+      "target": "qa/milno-full.png",
+      "sha256": "b6c6f8fb381eaf14ef1ccdeadb537b77514eefd10688a3ca8a2acaec6ca44288",
+      "bytes": 285862,
+      "originReportPath": "milno-clone/qa/milno-full.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\milno-reference-viewport.png",
+      "target": "qa/milno-reference-viewport.png",
+      "sha256": "1ba60578bec3eda432350f2dbe6a9a75689744aef6bc4283d9b9949679af7cfd",
+      "bytes": 87268,
+      "originReportPath": "milno-clone/qa/milno-reference-viewport.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\milono-github-readme.png",
+      "target": "qa/milono-github-readme.png",
+      "sha256": "0b7eb9d44c87abf15566e223182fa377b6d3bcb95ab45b720b728fe43c4f5351",
+      "bytes": 82680,
+      "originReportPath": "milno-clone/qa/milono-github-readme.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\milono-live.png",
+      "target": "qa/milono-live.png",
+      "sha256": "f091ca8afa0f9a3e065fef3bf82e096f5135228b668fbbe2fa6325587ce28a12",
+      "bytes": 51032,
+      "originReportPath": "milno-clone/qa/milono-live.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\milono.xyz-live.png",
+      "target": "qa/milono.xyz-live.png",
+      "sha256": "2595cb94d2f79876aaa0c92f6cea7cafea342493986baaa097bce35752a025b9",
+      "bytes": 61063,
+      "originReportPath": "milno-clone/qa/milono.xyz-live.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\optimized-tardigrade-live.png",
+      "target": "qa/optimized-tardigrade-live.png",
+      "sha256": "40062d7588331b17f00533ea4fd67018e2c5d444385d72f488878177c7d4d128",
+      "bytes": 49780,
+      "originReportPath": "milno-clone/qa/optimized-tardigrade-live.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\organic-body.png",
+      "target": "qa/organic-body.png",
+      "sha256": "08060373cc1433502797f0fce0b601b0fcc343061dc6eaf02e51d1234ac9e3ea",
+      "bytes": 126440,
+      "originReportPath": "milno-clone/qa/organic-body.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\organic-hero.png",
+      "target": "qa/organic-hero.png",
+      "sha256": "160030e2982480f7198453db277913a157fcd40a8fa81a565e65f6239ac5a781",
+      "bytes": 58174,
+      "originReportPath": "milno-clone/qa/organic-hero.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\organic-production-mobile.png",
+      "target": "qa/organic-production-mobile.png",
+      "sha256": "4c77f6507a0ea9ca4a694906a0967d022303c84da7f12570a2b2ecab3f1fb9b9",
+      "bytes": 16161,
+      "originReportPath": "milno-clone/qa/organic-production-mobile.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\organic-states.png",
+      "target": "qa/organic-states.png",
+      "sha256": "612c95f07df74a3091dc940cce65d67bcc9d8a184030db2813a7a8f9b91f45e3",
+      "bytes": 132385,
+      "originReportPath": "milno-clone/qa/organic-states.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\proof-comparison-review.png",
+      "target": "qa/proof-comparison-review.png",
+      "sha256": "85fddfd33d86b4eb75db749b3eb6f66d33d8b1b2c78b77aeff1f4d46bb521863",
+      "bytes": 46869,
+      "originReportPath": "milno-clone/qa/proof-comparison-review.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\readme-preview-live.png",
+      "target": "qa/readme-preview-live.png",
+      "sha256": "6dbe2566b8c0f0746ecce5734cf41140baaf09137e6a11274d843e337330f6e4",
+      "bytes": 68020,
+      "originReportPath": "milno-clone/qa/readme-preview-live.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\repository-upgrade-local.png",
+      "target": "qa/repository-upgrade-local.png",
+      "sha256": "c1af905cbf30c6c253fd26858fa7eb8ae66df67eb36f70aa0ec29f09a9352c7a",
+      "bytes": 630899,
+      "originReportPath": "milno-clone/qa/repository-upgrade-local.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\stress-ledger-review.png",
+      "target": "qa/stress-ledger-review.png",
+      "sha256": "aff05ad44c1f9fd77685f2f6e338c0837ad40fab79f7f8c2a265df424cf7fc58",
+      "bytes": 41628,
+      "originReportPath": "milno-clone/qa/stress-ledger-review.png"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\qa\\update-readme-preview.mjs",
+      "target": "qa/update-readme-preview.mjs",
+      "sha256": "de1f94a2131b102907e8527d411be8298e56ac82367c33988f7521b7ab46c2d8",
+      "bytes": 1177,
+      "originReportPath": "milno-clone/qa/update-readme-preview.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\scripts\\brand-assets.mjs",
+      "target": "scripts/brand-assets.mjs",
+      "sha256": "4f60a9e3a58507d1edddb76ccd805e81ad1658a2f53491bf4c5d4c8a33b56e86",
+      "bytes": 3087,
+      "originReportPath": "milno-clone/scripts/brand-assets.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\scripts\\serve.mjs",
+      "target": "scripts/serve.mjs",
+      "sha256": "0bd7c632ca5d3ecb92743d057b0848f8c03323b1125d6e221c2642e664856f32",
+      "bytes": 1621,
+      "originReportPath": "milno-clone/scripts/serve.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\scripts\\validate.mjs",
+      "target": "scripts/validate.mjs",
+      "sha256": "c0eaf18b5eca42d434111209c51e09eea0eeb66ac37c07ebf67678a0a6e4b9a2",
+      "bytes": 6825,
+      "originReportPath": "milno-clone/scripts/validate.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\tests\\amoeba.spec.mjs",
+      "target": "tests/amoeba.spec.mjs",
+      "sha256": "2b4a09964df823d2135321662e7641817a82953bb5e2c69560fc1b250c50c1a2",
+      "bytes": 12795,
+      "originReportPath": "milno-clone/tests/amoeba.spec.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\tests\\brand.spec.mjs",
+      "target": "tests/brand.spec.mjs",
+      "sha256": "e7c76f2c59c41d0bf39174e9e9e908e574d4cd6ad0a074b3ad993fe6e28d4d73",
+      "bytes": 8099,
+      "originReportPath": "milno-clone/tests/brand.spec.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\tests\\interaction.spec.mjs",
+      "target": "tests/interaction.spec.mjs",
+      "sha256": "24ee2182115d95cb3dc07033b3c188592cb77f6c6a70163ee9bc20b3c65aff8c",
+      "bytes": 7621,
+      "originReportPath": "milno-clone/tests/interaction.spec.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\tests\\tardigrade.spec.mjs",
+      "target": "tests/tardigrade.spec.mjs",
+      "sha256": "2a626f28c87d13a384564d571c8ff296e06e007474adcba31a86f9a7feb9833b",
+      "bytes": 4821,
+      "originReportPath": "milno-clone/tests/tardigrade.spec.mjs"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\三毛\\milno-clone\\tests\\terminal.spec.mjs",
+      "target": "tests/terminal.spec.mjs",
+      "sha256": "17ad559e102f2bc74adf451b0a751692ffb22b65b013c2d29d182c4b3882b236",
+      "bytes": 3365,
+      "originReportPath": "milno-clone/tests/terminal.spec.mjs"
+    }
+  ],
+  "excluded": []
+}

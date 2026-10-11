@@ -1,0 +1,66 @@
+# AMEBA：新机器使用说明
+
+整理日期：2026-10-10（Asia/Shanghai）。目录：`milno-clone`；类型：`website`；同一品牌：`ameba`。
+
+## 项目说明与源码位置
+
+可变形态、持续身份的流体研究控制台，当前品牌为 AMEBA。
+
+技术栈：静态 HTML / Canvas / JavaScript。
+
+- `dist/`
+- `docs/`
+- `scripts/`
+
+部署/构建位置：dist/。
+
+## 环境配置
+
+Node.js >=20.11（package.json engines 的约束）；新机器建议使用与此约束一致的 Node.js 24。
+
+Windows 新机先安装匹配版本的 Node.js（包含 npm）、现代浏览器；在项目目录打开 PowerShell。命令使用 npm.cmd / npx.cmd 可避免 PowerShell 执行策略拦截 npm.ps1。用 `node --version`、`npm.cmd --version` 确认可用。首次依赖安装需要访问 npm 源。
+
+安装方式：npm.cmd ci。锁文件应与 package.json 一起携带；不要只拷贝旧 node_modules。
+
+运行无需业务密钥。AMEBA_PORT 优先于 PORT；AMEBA_TEST_URL / AMEBA_CHROME 仅验证用途。
+
+本项目配置涉及以下变量名（仅记录名称，不复制凭据）：
+
+- `AMEBA_PORT`
+- `PORT`
+
+含 API 的项目不能用纯静态 HTTP 服务替代服务端。含私钥、数据库/模型/RPC token 的 .env 文件只通过安全渠道迁移，不放入 Git 或公开文档；公开前端变量不要包含秘密。
+
+## 安装、构建与启动
+
+从复制后的 `milno-clone` 目录执行，路径不要求保留旧机的 C:\Users\Administrator。
+
+```powershell
+npm.cmd ci
+npm.cmd run build
+npm.cmd run dev
+```
+
+构建：npm.cmd run build。
+
+启动：npm.cmd run dev。
+
+访问地址：http://localhost:4173。多个项目可能使用同一端口，先结束上一项目（Ctrl+C），或按支持的 PORT/CLI 参数改端口。
+
+## 新机器迁移与数据
+
+复制整个项目目录中的源码、静态资产、package.json、锁文件及上述配置模板。保留已有 dist/public/site 等已交付静态文件；有些项目直接把交付文件作为可维护源码，不能统一删掉 dist。用户浏览器内的 specimen/设置应按应用能力导出，复制 dist 不会复制浏览器存储。
+
+node_modules、.next、.sites-runtime 等依赖/缓存通常在新机重建；.vercel/project.json 是旧账户的项目绑定，不是源码依赖。新机先本地确认，再由有权限的账户明确选择要绑定的项目。本文不执行部署、真实交易、外发邮件或在线数据库迁移。.git 为历史仓库元数据，若需保留版本历史可单独携带。
+
+## 限制与验证范围
+
+构建脚本 validate.mjs 主要检查现有 dist，不是原作者编译流程。浏览器运行确定性本地模拟，未实现生产 Ed25519/HKDF 证明、链上身份或私钥托管。
+
+浏览器 QA 若需 Playwright/Chrome，应在新机单独安装并确认路径；本手册不要求为静态预览安装浏览器测试工具。
+
+本次依据本地 package、脚本、配置及现有 README 整理命令和边界，未在全新机器安装依赖、启动所有后台或核验外部服务。历史 README 中的生产链接/验证报告是当时记录；新机需按实际服务重新验收。
+
+## 原有说明
+
+- [README.md](README.md)
