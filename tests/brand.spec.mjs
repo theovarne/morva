@@ -3,11 +3,12 @@ import { test, expect } from "@playwright/test";
 test('brand icon exports, manifest and social image are served', async ({page}) => {
   await page.goto('/');
   const iconLinks = await page.locator('link[rel="icon"]').evaluateAll(nodes => nodes.map(node => node.getAttribute('href')));
-  expect(iconLinks).toEqual(['./brand/favicon.ico?v=20261011', './brand/favicon.svg?v=20261011']);
-  const manifest = await page.evaluate(async () => (await fetch('./site.webmanifest?v=20261011')).json());
-  expect(manifest.name).toBe('MILONO');
+  expect(iconLinks).toEqual(['./brand/favicon.ico?v=20261022b', './brand/favicon.svg?v=20261022b']);
+  const manifest = await page.evaluate(async () => (await fetch('./site.webmanifest?v=20261022b')).json());
+  expect(manifest.name).toBe('MORVA');
+  expect(manifest.short_name).toBe('MORVA');
   expect(manifest.icons.map(icon => icon.sizes)).toEqual(['192x192','512x512']);
-  for (const [file, width, height] of [['favicon-16.png',16,16],['favicon-32.png',32,32],['favicon-48.png',48,48],['apple-touch-icon.png',180,180],['icon-192.png',192,192],['icon-512.png',512,512],['og-image.png',1200,630]]) {
+  for (const [file, width, height] of [['favicon-16.png',16,16],['favicon-32.png',32,32],['favicon-48.png',48,48],['apple-touch-icon.png',180,180],['icon-192.png',192,192],['icon-512.png',512,512],['og-image.png',1200,630],['morva-logo.png',1024,1024]]) {
     const dimensions = await page.evaluate(async file => {
       const img = new Image(); img.src = '/brand/' + file; await img.decode();
       return [img.naturalWidth,img.naturalHeight];
@@ -20,13 +21,13 @@ test('brand icon exports, manifest and social image are served', async ({page}) 
     return {type:view.getUint16(2,true), count:view.getUint16(4,true), sizes:[view.getUint8(6),view.getUint8(22),view.getUint8(38)]};
   });
   expect(ico).toEqual({type:1,count:3,sizes:[16,32,48]});
-  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content','https://milono.xyz/brand/og-image.png?v=20261011');
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content','https://milono.xyz/brand/og-image.png?v=20261022b');
 });
 
 test('brand tokens, selection and keyboard focus preserve contrast', async ({page}) => {
   await page.goto('/');
   await expect(page.locator('body')).toHaveCSS('background-color','rgb(0, 0, 0)');
-  await expect(page.locator('.intro p')).toHaveCSS('color','rgb(243, 236, 228)');
+  await expect(page.locator('.intro p').first()).toHaveCSS('color','rgb(243, 236, 228)');
   await expect(page.locator('.alive-dot')).toHaveCSS('background-color','rgb(206, 98, 65)');
   await expect(page.locator('.terminal')).toHaveCSS('background-color','rgb(0, 0, 0)');
   await page.locator('#terminal-input').focus();
@@ -63,30 +64,30 @@ test('neural animation, region hover/pin and real slider drag remain functional'
   expect(errors).toEqual([]);
 });
 
-test("milono public brand and official social links", async ({ page }) => {
+test("morva public brand, slogan and official social links", async ({ page }) => {
   await page.goto("/");
-  await expect(page).toHaveTitle("milono — Fluid Cryptographic Organism");
-  await expect(page.locator(".brand")).toHaveText("milono");
-  await expect(page.locator("footer")).toContainText("milono");
-  await expect(page.locator(".intro")).toContainText("milono");
-  await expect(page.locator(".specimen-label")).toHaveText("milono / SPECIMEN 001");
-  await expect(page.locator(".terminal-form label")).toHaveText("milono@organism:~$");
-  await expect(page.locator("#terminal-output")).toContainText("milono RESEARCH CONSOLE");
-  for (const [name, href] of [["X", "https://x.com/Milono_sol"], ["GitHub", "https://github.com/theovarne/milono"]]) {
-    const link = page.getByRole("link", { name: "milono on " + name, exact: true });
+  await expect(page).toHaveTitle("morva — Form changes. Identity remains.");
+  await expect(page.locator(".brand")).toHaveText("morva");
+  await expect(page.locator("footer")).toContainText("morva");
+  await expect(page.locator(".intro")).toContainText("morva");
+  await expect(page.locator(".intro")).toContainText("Form changes. Identity remains.");
+  await expect(page.locator(".specimen-label")).toHaveText("morva / SPECIMEN 001");
+  await expect(page.locator(".terminal-form label")).toHaveText("morva@organism:~$");
+  await expect(page.locator("#terminal-output")).toContainText("morva RESEARCH CONSOLE");
+  for (const [name, href] of [["X", "https://x.com/Milono_sol"], ["GitHub", "https://github.com/theovarne/morva"]]) {
+    const link = page.getByRole("link", { name: "morva on " + name, exact: true });
     await expect(link).toHaveAttribute("href", href);
     await expect(link).toHaveAttribute("target", "_blank");
     await expect(link).toHaveAttribute("rel", "noopener noreferrer");
   }
   for (const selector of ['meta[name="description"]', 'meta[property="og:description"]', 'meta[name="twitter:description"]']) {
-    await expect(page.locator(selector)).toHaveAttribute("content", "milono is a fluid cryptographic organism with mutable form and persistent identity.");
+    await expect(page.locator(selector)).toHaveAttribute("content", "MORVA is an experimental cryptographic organism. Form changes. Identity remains.");
   }
-  expect(await page.locator("body").innerText()).not.toMatch(/\b(?:milno|ameba)\b/i);
-  expect(await page.locator("body").innerText()).not.toMatch(/\bMILONO\b/);
+  expect(await page.locator("body").innerText()).not.toMatch(/\b(?:milono|milno|ameba)\b/i);
   await expect(page.locator(".specimen-label")).toHaveCSS("text-transform", "none");
   await page.locator('[data-specimen="B"]').click();
-  await expect(page.locator(".specimen-label")).toHaveText("milono / SPECIMEN 002");
-  expect(await page.locator("body").innerText()).not.toMatch(/\bMILONO\b/);
+  await expect(page.locator(".specimen-label")).toHaveText("morva / SPECIMEN 002");
+  expect(await page.locator("body").innerText()).not.toMatch(/\b(?:milono|milno|ameba)\b/i);
 });
 
 for (const legacyKey of ["milno.simulation.v2", "ameba.simulation.v2"]) {
@@ -117,7 +118,7 @@ for (const legacyKey of ["milno.simulation.v2", "ameba.simulation.v2"]) {
       expect(after.saved).toEqual(after.state);
       expect(after.legacy).toEqual(before.legacy);
       expect(after.root).toBe(before.root);
-      expect(after.identity).toBe("did:milono:7F2A91C4");
+      expect(after.identity).toBe("did:morva:7F2A91C4");
     });
   }
 }

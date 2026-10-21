@@ -5,23 +5,25 @@ test("optimized tardigrade console, live links and no retired contract addresses
   page.on("pageerror", error => errors.push(error.message));
   const response = await page.goto("/");
   expect(response.status()).toBe(200);
-  await expect(page).toHaveTitle("milono — Fluid Cryptographic Organism");
-  await expect(page.locator(".brand")).toHaveText("milono");
-  await expect(page.locator(".ca")).toHaveText("CA: 8HzSYtmSxBPQqCDevZHWY5DJvKRB25Lvh7vYYoK2pump");
-  await expect(page.locator(".logo img")).toHaveAttribute("src", "./brand/milono-mark.png");
+  await expect(page).toHaveTitle("morva — Form changes. Identity remains.");
+  await expect(page.locator(".brand")).toHaveText("morva");
+  await expect(page.locator(".ca")).toBeVisible();
+  await expect(page.locator(".ca")).toHaveText("CA:");
+  await expect(page.locator("#contract-address")).toBeEmpty();
+  await expect(page.locator(".logo img")).toHaveAttribute("src", "./brand/morva-mark.png");
   expect(await page.locator(".logo img").evaluate(img => img.complete && img.naturalWidth > 0)).toBeTruthy();
-  await expect(page.locator('link[rel="icon"][type="image/svg+xml"]')).toHaveAttribute("href", "./brand/favicon.svg?v=20261011");
+  await expect(page.locator('link[rel="icon"][type="image/svg+xml"]')).toHaveAttribute("href", "./brand/favicon.svg?v=20261022b");
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://milono.xyz/");
-  await expect(page.locator('a[aria-label="milono on GitHub"]')).toHaveAttribute("href", "https://github.com/theovarne/milono");
-  await expect(page.locator('a[aria-label="milono on X"]')).toHaveAttribute("href", "https://x.com/Milono_sol");
+  await expect(page.locator('a[aria-label="morva on GitHub"]')).toHaveAttribute("href", "https://github.com/theovarne/morva");
+  await expect(page.locator('a[aria-label="morva on X"]')).toHaveAttribute("href", "https://x.com/Milono_sol");
   await page.waitForFunction(() => Boolean(window.Milono?.provider));
   await expect(page.locator('script[src="./assets/amoeba.js"]')).toHaveCount(0);
   await expect(page.locator(".weight-cell")).toHaveCount(256);
   await expect(page.locator("#live-title")).toHaveText("Live specimen");
   await expect(page.locator(".lore")).toContainText("The tardigrade is the water bear.");
   const html = await page.content();
-  for (const ca of ["Du8TzQun4vnrSGncRzhsPbRYyKQUFJ5QP7dQ5Mu7pump", "4cjLraGqbJciiaRbW8UFvntta84eBMeZ53zXB43Kpump"]) expect(html).not.toContain(ca);
-  for (const path of ["/brand/milono-mark.png", "/assets/styles.css", "/assets/organism.js", "/assets/visuals.js", "/robots.txt", "/sitemap.xml"]) {
+  for (const ca of ["8HzSYtmSxBPQqCDevZHWY5DJvKRB25Lvh7vYYoK2pump", "Du8TzQun4vnrSGncRzhsPbRYyKQUFJ5QP7dQ5Mu7pump", "4cjLraGqbJciiaRbW8UFvntta84eBMeZ53zXB43Kpump"]) expect(html).not.toContain(ca);
+  for (const path of ["/brand/morva-mark.png", "/assets/styles.css", "/assets/organism.js", "/assets/visuals.js", "/robots.txt", "/sitemap.xml"]) {
     expect(await page.evaluate(async path => (await fetch(path)).ok, path)).toBeTruthy();
   }
   expect(errors).toEqual([]);
@@ -78,5 +80,5 @@ test("optimized specimen, fingerprint and proof inspectors work", async ({ page 
   await page.locator("#verify-proof").click();
   await expect(page.locator("#proof-result")).toHaveText("LOCAL PASS", { timeout: 10000 });
   await command(page, "inspect identity");
-  await expect(page.locator("#terminal-output")).toContainText("did:milono:9C81BE30");
+  await expect(page.locator("#terminal-output")).toContainText("did:morva:9C81BE30");
 });

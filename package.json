@@ -1,12 +1,12 @@
 {
-  "name": "milono",
+  "name": "morva",
   "version": "0.1.0",
   "private": true,
-  "description": "MILONO is a fluid cryptographic organism with mutable form and persistent identity.",
+  "description": "MORVA is an experimental cryptographic organism. Form changes. Identity remains.",
   "license": "MIT",
   "homepage": "https://milono.xyz/",
-  "repository": { "type": "git", "url": "https://github.com/theovarne/milono.git" },
-  "bugs": { "url": "https://github.com/theovarne/milono/issues" },
+  "repository": { "type": "git", "url": "https://github.com/theovarne/morva.git" },
+  "bugs": { "url": "https://github.com/theovarne/morva/issues" },
   "scripts": {
     "build": "node scripts/validate.mjs",
     "check": "node scripts/validate.mjs",

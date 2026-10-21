@@ -4,7 +4,7 @@ Start with the [capability and trust-boundary matrix](../SIMULATION.md). These d
 
 ## Purpose
 
-The current MILONO website is a research interface for exploring the protocol model without a production cryptographic or blockchain backend.
+The current MORVA website is a research interface for exploring the protocol model without a production cryptographic or blockchain backend.
 
 It intentionally separates:
 

@@ -425,7 +425,7 @@
     seed: ["GENESIS MATERIAL", [["status", "protocol model"], ["publication", "never published"], ["role", "origin of identity"]]],
     private: ["PRIVATE KEY / sk", [["status", "not present in console"], ["mutation", "forbidden"], ["role", "identity substrate"]]],
     ed25519: ["PUBLIC DERIVATION", [["operation", "proposed ed25519(sk)"], ["implementation", "not present"], ["property", "deterministic"]]],
-    public: ["PUBLIC IDENTITY", [["scheme", "illustrative did:milono"], ["visibility", "public fixture"], ["verification", "local only"]]],
+    public: ["PUBLIC IDENTITY", [["scheme", "illustrative did:morva"], ["visibility", "public fixture"], ["verification", "local only"]]],
     hkdf: ["BODY DERIVATION", [["operation", "proposed HKDF-SHA256"], ["implementation", "fixture generator"], ["output", "simulated parameters"]]],
     weights: ["WEIGHT BODY", [["parameters", "18,432 conceptual"], ["source", "public fixture"], ["drift", "0.000000% local"]]],
     commitment: ["IDENTITY BINDING", [["binding", "identity to body model"], ["status", "simulated"], ["mutation", "fails local invariant"]]],

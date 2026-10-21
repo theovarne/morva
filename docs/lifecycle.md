@@ -2,7 +2,7 @@
 
 ## States
 
-MILONO defines three conceptual lifecycle states:
+MORVA defines three conceptual lifecycle states:
 
 ```text
 ACTIVE

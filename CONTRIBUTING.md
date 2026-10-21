@@ -1,6 +1,6 @@
-# Contributing to MILONO
+# Contributing to MORVA
 
-MILONO welcomes careful contributions to the research console, protocol specification, and documentation.
+MORVA welcomes careful contributions to the research console, protocol specification, and documentation.
 
 ## Research Posture
 

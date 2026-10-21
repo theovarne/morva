@@ -60,7 +60,7 @@ a:hover { color: var(--code); }
 header { border-bottom: 1px solid var(--line); }
 .nav {
   max-width: 620px; margin: 0 auto; padding: 18px 28px;
-  display: flex; align-items: center; justify-content: space-between;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
 }
 .brand {
   display: inline-flex; align-items: center; gap: 9px; flex-shrink: 0;
@@ -75,9 +75,9 @@ header { border-bottom: 1px solid var(--line); }
 .links a:hover { color: var(--code); }
 
 /* contract address */
-.ca { min-width: 0; display: flex; align-items: center; gap: 5px; font-family: var(--mono); font-size: 12px; color: var(--dim); letter-spacing: 0.3px; }
+.ca { display: flex; align-items: center; flex: 1; min-width: 0; gap: 6px; font-family: var(--mono); font-size: 12px; color: var(--dim); letter-spacing: 0.3px; }
 .ca .lbl { color: var(--muted); }
-.ca .addr { display: inline-block; max-width: 340px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ca .addr { flex: 1; min-width: 0; min-height: 1.4em; }
 
 /* logo */
 .logo { display: flex; justify-content: center; padding: 96px 0 72px; }
@@ -85,6 +85,7 @@ header { border-bottom: 1px solid var(--line); }
 
 /* intro */
 .intro { padding-bottom: 8px; }
+.intro .tagline { margin: 0 0 20px; font-size: clamp(24px, 5vw, 32px); line-height: 1.3; font-weight: 500; letter-spacing: -0.8px; text-wrap: balance; }
 .intro p { font-size: 17px; line-height: 1.75; color: var(--text); margin: 0; letter-spacing: -0.1px; }
 
 code {
@@ -754,8 +755,6 @@ button.comparison-matrix-row:hover { color: var(--text); }
 .terminal-entry.is-context { color: var(--muted); font-size: 9px; }
 
 @media (max-width: 560px) {
-  .ca { font-size: 10px; }
-  .ca .addr { max-width: 128px; }
   .logo { padding: 64px 0 52px; }
   .logo img { width: 160px; height: 160px; }
   .brand { gap: 6px; font-size: 13px; }

@@ -1,12 +1,12 @@
-# MILONO Specimens
+# MORVA Specimens
 
 A, B and C are public simulation fixtures, not funded wallets, registered DIDs or cryptographic test vectors.
 
 | Fixture | Illustrative identity | Initial reserve | Stability | Bias |
 | --- | --- | --- | --- | --- |
-| A | `did:milono:7F2A91C4` | 81.72 | 97.2 | 0.41 |
-| B | `did:milono:9C81BE30` | 76.48 | 93.8 | 0.63 |
-| C | `did:milono:22D4A67E` | 87.16 | 98.4 | 0.28 |
+| A | `did:morva:7F2A91C4` | 81.72 | 97.2 | 0.41 |
+| B | `did:morva:9C81BE30` | 76.48 | 93.8 | 0.63 |
+| C | `did:morva:22D4A67E` | 87.16 | 98.4 | 0.28 |
 
 Roots, commitment fixtures and numeric seeds are unchanged by branding.
 

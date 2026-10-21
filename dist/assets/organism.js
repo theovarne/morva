@@ -5,9 +5,9 @@
   // Read-only compatibility namespaces. Never delete the user's legacy backups.
   const LEGACY_KEYS = ["milno.simulation.v2", "ameba.simulation.v2"];
   const SPECIMENS = {
-    A: { code: "7F2A", identity: "did:milono:7F2A91C4", root: "0x82F1A68B37D2C4E90B137E00D15A4F397A2BAF446F6B66B820E1A44D979C9C71", publicKey: "8nH7wQ2LYwJpQ4c6P51JksZA7a2rQb91QL", commitment: "0x81AF3E75CCBDBDC89D44A78B637C14F62795E04BD230E7D51DA822B7A416C210", variance: 0.081, stability: 97.2, bias: 0.41, efficiency: 88.4 },
-    B: { code: "9C81", identity: "did:milono:9C81BE30", root: "0x4D52C6AB8884712DF60A8764DBA18DC62D1BE748103E938A6A52DAE4B91F1A03", publicKey: "5vK2dA91McT6aXz3J8QpHf4uWb7eLkB2YQ", commitment: "0x59D39D8F41C7A1F4EF165CB86CCEA3E441E8757406F2548EBB3D29EF2E0FB744", variance: 0.104, stability: 93.8, bias: 0.63, efficiency: 84.1 },
-    C: { code: "22D4", identity: "did:milono:22D4A67E", root: "0xBB7042E366AF3D41B9DB8E44CE3F879521A029BB6111209A5509A2D1D2883FC8", publicKey: "2gR9mT48QwE1yKz6V3pNc7aDf5uHsL22D4", commitment: "0x13D1AA77E48231E87D9169C5B6A3076C64DF5C1B8926A9EECD4ED20A34A5D90B", variance: 0.067, stability: 98.4, bias: 0.28, efficiency: 91.7 }
+    A: { code: "7F2A", identity: "did:morva:7F2A91C4", root: "0x82F1A68B37D2C4E90B137E00D15A4F397A2BAF446F6B66B820E1A44D979C9C71", publicKey: "8nH7wQ2LYwJpQ4c6P51JksZA7a2rQb91QL", commitment: "0x81AF3E75CCBDBDC89D44A78B637C14F62795E04BD230E7D51DA822B7A416C210", variance: 0.081, stability: 97.2, bias: 0.41, efficiency: 88.4 },
+    B: { code: "9C81", identity: "did:morva:9C81BE30", root: "0x4D52C6AB8884712DF60A8764DBA18DC62D1BE748103E938A6A52DAE4B91F1A03", publicKey: "5vK2dA91McT6aXz3J8QpHf4uWb7eLkB2YQ", commitment: "0x59D39D8F41C7A1F4EF165CB86CCEA3E441E8757406F2548EBB3D29EF2E0FB744", variance: 0.104, stability: 93.8, bias: 0.63, efficiency: 84.1 },
+    C: { code: "22D4", identity: "did:morva:22D4A67E", root: "0xBB7042E366AF3D41B9DB8E44CE3F879521A029BB6111209A5509A2D1D2883FC8", publicKey: "2gR9mT48QwE1yKz6V3pNc7aDf5uHsL22D4", commitment: "0x13D1AA77E48231E87D9169C5B6A3076C64DF5C1B8926A9EECD4ED20A34A5D90B", variance: 0.067, stability: 98.4, bias: 0.28, efficiency: 91.7 }
   };
   const byId = (id) => document.getElementById(id);
   const clone = (value) => JSON.parse(JSON.stringify(value));
@@ -409,7 +409,7 @@
 
   function renderSpecimen(state) {
     const specimen = SPECIMENS[state.specimen];
-    document.querySelector(".specimen-label").textContent = "milono / SPECIMEN 00" + ({ A: 1, B: 2, C: 3 }[state.specimen]);
+    document.querySelector(".specimen-label").textContent = "morva / SPECIMEN 00" + ({ A: 1, B: 2, C: 3 }[state.specimen]);
     document.querySelectorAll("[data-specimen]").forEach((button) =>
       button.setAttribute("aria-selected", String(button.dataset.specimen === state.specimen))
     );

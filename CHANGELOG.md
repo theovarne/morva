@@ -2,6 +2,14 @@
 
 This log starts from the current MILONO repository work. It does not invent retrospective releases or claim a tagged production protocol.
 
+## 2026-10-22 — MORVA Website Identity
+
+- Renamed the public website to MORVA (displayed as `morva`) with the tagline “Form changes. Identity remains.”
+- Updated page copy, browser/social metadata, the installable app name, terminal/specimen labels and social preview artwork.
+- Adapted the supplied double-eyed, two-antenna creature into the new MORVA logo, favicon, app icons and social preview. Updated the GitHub repository name, README, package metadata and current documentation to MORVA.
+- Removed the retired contract address and added a new header CA area with its address left empty.
+- Kept the existing official domain, X destination, internal runtime API and browser storage keys for compatibility. Fixture identity prefixes now display `did:morva`; their identity suffixes, roots and commitments are unchanged.
+
 ## 2026-10-11 — Official Domain
 
 - Connected `milono.xyz` and `www.milono.xyz` to the existing production project and issued their TLS certificate.

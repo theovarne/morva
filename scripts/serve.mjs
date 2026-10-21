@@ -39,5 +39,5 @@ const server = createServer((request, response) => {
 });
 
 server.listen(port, "127.0.0.1", () => {
-  console.log(`MILONO research console: http://localhost:${port}`);
+  console.log(`MORVA research console: http://localhost:${port}`);
 });

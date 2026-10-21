@@ -2,7 +2,7 @@
 
 ## Concept
 
-Cryptobiosis is MILONO's continuity-preserving dormant state. It is inspired by biological dormancy but implemented as a computational and cryptographic model.
+Cryptobiosis is MORVA's continuity-preserving dormant state. It is inspired by biological dormancy but implemented as a computational and cryptographic model.
 
 The model does not claim biological equivalence.
 

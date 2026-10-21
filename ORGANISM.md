@@ -1,6 +1,6 @@
-# MILONO Organism Model
+# MORVA Organism Model
 
-MILONO explores mutable form and persistent identity through computational and interface abstractions. It is not a biological simulation validated against living organisms.
+MORVA explores mutable form and persistent identity through computational and interface abstractions. It is not a biological simulation validated against living organisms.
 
 **Active implementation:** optimized tardigrade console. **Retained alternative:** amoebic membrane renderer. **Proposed protocol:** private-substrate identity and body derivation. These three layers must not be conflated.
 

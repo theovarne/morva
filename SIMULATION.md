@@ -1,4 +1,4 @@
-# MILONO Simulation Boundary
+# MORVA Simulation Boundary
 
 The active website runs **SIMULATED STATE**, not **EXTERNALLY VERIFIED STATE**. This distinction applies to every specimen, root, commitment, proof label and transition shown by the console.
 

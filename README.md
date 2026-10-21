@@ -1,24 +1,26 @@
-# MILONO
+# MORVA
 
-### A fluid cryptographic organism with persistent identity.
+<img src="dist/brand/morva-logo.png" alt="MORVA mascot: an ivory and terracotta segmented organism with two antennae and two large eyes" width="260">
 
-MILONO is an experimental digital organism built around a simple distinction: **form may change while identity remains continuous.**
+### Form changes. Identity remains.
 
-> MUTABLE IN FORM. PERSISTENT IN IDENTITY.
+MORVA is an experimental digital organism built around a simple distinction: **form may change while identity remains continuous.**
 
-[Website](https://milono.xyz/) · [X](https://x.com/Milono_sol) · [Source](https://github.com/theovarne/milono) · [Build](https://github.com/theovarne/milono/actions/workflows/ci.yml)
+> Form changes. Identity remains.
 
-![MILONO research console: segmented organism brand mark and local specimen telemetry](docs/assets/research-console.png?v=6dbe2566b8c0)
+[Website](https://milono.xyz/) · [X](https://x.com/Milono_sol) · [Source](https://github.com/theovarne/morva) · [Build](https://github.com/theovarne/morva/actions/workflows/ci.yml)
 
-Production UI screenshot, refreshed 2026-10-11. Telemetry is a browser-local simulation snapshot.
+![MORVA research console: the new organism mascot and local specimen telemetry](docs/assets/research-console.png?v=20261022b)
 
-**Current implementation:** the optimized tardigrade research console, backed by browser-local simulation. The alternative amoebic membrane experiment is retained in source but is **not loaded by the live page**. The screenshot shows the actual current interface, not an unshipped concept.
+Console UI screenshot. Telemetry is a browser-local simulation snapshot.
 
-## What is MILONO?
+**Current implementation:** an interactive organism research console, backed by browser-local simulation. The MORVA logo uses the owner-provided ivory and terracotta character with two antennae, two large eyes and a segmented body. The alternative amoebic membrane experiment is retained in source but is **not loaded by the live page**. The screenshot shows the actual current interface, not an unshipped concept.
 
-MILONO explores identity as continuity of origin rather than an unchanging visible shape or uninterrupted process uptime. The research model is a soft computational organism that can respond, contract into dormancy, and reactivate without becoming a different individual.
+## What is MORVA?
 
-The visible form is not the identity. Amoebic morphology expresses this distinction through a mutable boundary; the current tardigrade presentation emphasizes cryptobiosis. Neither metaphor is evidence of biological life or externally verified cryptographic identity.
+MORVA explores identity as continuity of origin rather than an unchanging visible shape or uninterrupted process uptime. The research model is a soft computational organism that can respond, contract into dormancy, and reactivate without becoming a different individual.
+
+The visible form is not the identity. Amoebic morphology expresses this distinction through a mutable boundary; the current console models cryptobiosis. Neither metaphor is evidence of biological life or externally verified cryptographic identity.
 
 ## Identity and architecture
 
@@ -34,7 +36,7 @@ PRIVATE SUBSTRATE
  Ed25519(sk)             HKDF(sk)
         └────────┬─────────┘
                  ▼
-               MILONO
+               MORVA
                  │
       MORPHOLOGY / RUNTIME
                  │
@@ -66,7 +68,7 @@ In the current simulation, stress changes the neural-field presentation and life
 
 ## Cryptographic Core and Motility
 
-A nucleus is a visual representation of identity continuity, not a secure enclave or a claim that living cells perform cryptography. The amoebic experiment uses a persistent nuclear motif, local membrane deformation and activity-dependent flow. The active tardigrade console represents continuity through shared identity, root, commitment and state readouts.
+A nucleus is a visual representation of identity continuity, not a secure enclave or a claim that living cells perform cryptography. The amoebic experiment uses a persistent nuclear motif, local membrane deformation and activity-dependent flow. The active console represents continuity through shared identity, root, commitment and state readouts.
 
 Motility, membrane stability and internal flow are experimental interface concepts—not measured biology. The current live specimen instead exposes reserve, integrity, epoch and state. See [Organism](ORGANISM.md) and [Morphology](docs/morphology.md).
 
@@ -98,37 +100,37 @@ The [live console](https://milono.xyz/) contains:
 - Proof Inspector and Specimen Comparison;
 - Laboratory Terminal.
 
-Hovering and clicking inspect nodes, weights and transitions. Stress controls and Terminal commands change shared simulation state, rather than merely changing a CSS hover style. The water-bear hero is artwork; membrane dragging, pseudopods and elastic release belong to the retained **inactive amoebic experiment**.
+Hovering and clicking inspect nodes, weights and transitions. Stress controls and Terminal commands change shared simulation state, rather than merely changing a CSS hover style. The MORVA mascot is artwork; membrane dragging, pseudopods and elastic release belong to the retained **inactive amoebic experiment**.
 
 See [Interaction](INTERACTION.md) for the real input map and [Simulation](SIMULATION.md) for the trust boundary.
 
 ## Terminal
 
 ```text
-milono@organism:~$ status
-milono@organism:~$ inspect identity
-milono@organism:~$ inspect body
-milono@organism:~$ inspect weights
-milono@organism:~$ inspect metabolism
-milono@organism:~$ inspect history
-milono@organism:~$ stress 0.72
-milono@organism:~$ stress 0
-milono@organism:~$ wake
+morva@organism:~$ status
+morva@organism:~$ inspect identity
+morva@organism:~$ inspect body
+morva@organism:~$ inspect weights
+morva@organism:~$ inspect metabolism
+morva@organism:~$ inspect history
+morva@organism:~$ stress 0.72
+morva@organism:~$ stress 0
+morva@organism:~$ wake
 ```
 
 Use `help` for the implemented command list. `inspect membrane`, `inspect core` and `inspect motility` are **not supported** by the active parser. `LOCAL PASS` means a simulated result, not a proof. Full commands, outputs and limitations: [Terminal reference](docs/terminal.md).
 
 ## Run Locally
 
-Moving development machines: [Windows to Mac handoff](MAC_HANDOFF.md). Production is intentionally paused as of 2026-10-11; local development is unaffected.
+Moving development machines: [Windows to Mac handoff](MAC_HANDOFF.md). That document preserves the historical migration state; the current brand is MORVA. Existing `MILONO_*` environment variables, `window.Milono` and the `milono.simulation.v2` browser-storage key remain compatible.
 
 Native HTML, CSS, JavaScript and Canvas 2D. No backend, framework runtime, wallet or application environment variables are required.
 
 Use Node.js 22+ and npm:
 
 ```bash
-git clone https://github.com/theovarne/milono.git
-cd milono
+git clone https://github.com/theovarne/morva.git
+cd morva
 npm ci
 npm run build
 npm run dev
@@ -159,7 +161,7 @@ CI performs locked installation, build validation, Chromium tests and full-histo
 
 ## Status
 
-MILONO is an experimental research implementation. All organism telemetry, proof state and transitions shown by this console are local simulation. Fixture generation is repeatable; a whole session is not deterministic because input, timestamps, storage and viewport vary.
+MORVA is an experimental research implementation. All organism telemetry, proof state and transitions shown by this console are local simulation. Fixture generation is repeatable; a whole session is not deterministic because input, timestamps, storage and viewport vary.
 
 There is no connected blockchain provider, live Solana execution, production Ed25519/HKDF implementation, ZK verifier or autonomous external agent. `ChainProvider` is an unconnected stub. Local history is editable and bounded, not tamper-evident.
 

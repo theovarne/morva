@@ -23,7 +23,7 @@ const required = [
   "dist/sitemap.xml",
   "dist/vercel.json",
   "dist/assets/styles.css",
-  "dist/brand/milono-logo-full.png", "dist/brand/milono-mark.png",
+  "dist/brand/milono-logo-full.png", "dist/brand/morva-mark.png",
   "dist/brand/favicon.svg", "dist/brand/favicon.ico", "dist/favicon.ico",
   "dist/brand/favicon-16.png", "dist/brand/favicon-32.png", "dist/brand/favicon-48.png",
   "dist/brand/apple-touch-icon.png", "dist/brand/icon-192.png", "dist/brand/icon-512.png",
@@ -53,27 +53,31 @@ const indexPath = join(root, "dist", "index.html");
 const html = existsSync(indexPath) ? readFileSync(indexPath, "utf8") : "";
 
 for (const expected of [
-  "<title>milono &mdash; Fluid Cryptographic Organism</title>",
+  "<title>morva &mdash; Form changes. Identity remains.</title>",
   "<a class=\"brand\" href=\"./\"><img",
-  "./brand/milono-mark.png",
+  "./brand/morva-mark.png",
   "The tardigrade is the water bear.",
+  "Form changes. Identity remains.",
   "SIMULATED / LOCAL MODEL",
   "SimulationProvider",
   "./assets/organism.js",
   "./assets/visuals.js",
   "https://milono.xyz/",
   "<meta property=\"og:url\" content=\"https://milono.xyz/\">",
-  "https://github.com/theovarne/milono",
+  "https://github.com/theovarne/morva",
   "https://x.com/Milono_sol"
 ]) {
   if (!html.includes(expected)) errors.push(`index.html missing required marker: ${expected}`);
 }
 
 if (html.includes('src="./assets/amoeba.js"')) errors.push("amoeba renderer unexpectedly loaded in tardigrade version");
-if (html.includes("Du8TzQun4vnrSGncRzhsPbRYyKQUFJ5QP7dQ5Mu7pump") || html.includes("4cjLraGqbJciiaRbW8UFvntta84eBMeZ53zXB43Kpump")) errors.push("retired contract address restored");
+if (html.includes("8HzSYtmSxBPQqCDevZHWY5DJvKRB25Lvh7vYYoK2pump") || html.includes("Du8TzQun4vnrSGncRzhsPbRYyKQUFJ5QP7dQ5Mu7pump") || html.includes("4cjLraGqbJciiaRbW8UFvntta84eBMeZ53zXB43Kpump")) errors.push("retired contract address restored");
+if (!html.includes('<span class="addr" id="contract-address"></span>')) errors.push("CA address area must remain empty");
+const webManifest = JSON.parse(readFileSync(join(root, "dist", "site.webmanifest"), "utf8"));
+if (webManifest.name !== "MORVA" || webManifest.short_name !== "MORVA") errors.push("web manifest brand mismatch");
 const manifest = JSON.parse(readFileSync(join(root, "package.json"), "utf8"));
 const lock = JSON.parse(readFileSync(join(root, "package-lock.json"), "utf8"));
-if (manifest.name !== "milono" || lock.name !== "milono" || lock.packages?.[""]?.name !== "milono") {
+if (manifest.name !== "morva" || lock.name !== "morva" || lock.packages?.[""]?.name !== "morva") {
   errors.push("package/lockfile brand mismatch");
 }
 
@@ -94,7 +98,7 @@ const markdownFiles = [
   ...readdirSync(join(root, "docs")).filter(file => file.endsWith(".md")).map(file => `docs/${file}`)
 ];
 const readme = readFileSync(join(root, "README.md"), "utf8");
-for (const marker of ["# MILONO", "## What is MILONO?", "## Status", "## Run Locally", "## License / Attribution", "https://milono.xyz/", "https://x.com/Milono_sol", "SIMULATION.md", "docs/terminal.md", "THIRD_PARTY_NOTICES.md"]) {
+for (const marker of ["# MORVA", "## What is MORVA?", "Form changes. Identity remains.", "dist/brand/morva-logo.png", "## Status", "## Run Locally", "## License / Attribution", "https://milono.xyz/", "https://x.com/Milono_sol", "SIMULATION.md", "docs/terminal.md", "THIRD_PARTY_NOTICES.md"]) {
   if (!readme.includes(marker)) errors.push(`README missing required marker: ${marker}`);
 }
 if (/\b(?:MILNO|AMEBA|AMOEBA)\b/.test(readme)) errors.push("README contains retired public branding");
@@ -149,9 +153,9 @@ function walk(directory) {
 walk(root);
 
 if (errors.length) {
-  console.error("MILONO validation failed:");
+  console.error("MORVA validation failed:");
   for (const error of errors) console.error(`- ${error}`);
   process.exit(1);
 }
 
-console.log(`MILONO validation passed (${required.length} required files checked).`);
+console.log(`MORVA validation passed (${required.length} required files checked).`);

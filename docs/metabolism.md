@@ -2,7 +2,7 @@
 
 ## Computational Model
 
-MILONO treats computation as metabolic activity. The model tracks a reserve that changes with computational cost and environmental input:
+MORVA treats computation as metabolic activity. The model tracks a reserve that changes with computational cost and environmental input:
 
 ```text
 reserve(t + 1)

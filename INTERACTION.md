@@ -1,4 +1,4 @@
-# MILONO Interaction Model
+# MORVA Interaction Model
 
 This describes the current optimized tardigrade console. The site loads [organism.js](dist/assets/organism.js) and [visuals.js](dist/assets/visuals.js), not the retained amoeba renderer.
 
@@ -48,6 +48,6 @@ These are code experiments, not current production acceptance claims. The old re
 
 ## Terminal and Verification
 
-`milono@organism:~$` is a browser command interface, not an operating-system shell. Supported procedures are documented in [Terminal](docs/terminal.md).
+`morva@organism:~$` is a browser command interface, not an operating-system shell. Supported procedures are documented in [Terminal](docs/terminal.md).
 
 `npm test` runs the active tardigrade, brand/storage and Terminal suites. It checks browser errors, responsive widths, shared inspection context, stress/TUN/wake, specimen and proof views, and compatibility storage. Historical membrane suites are excluded rather than presented as passing tests for a renderer that is not loaded.

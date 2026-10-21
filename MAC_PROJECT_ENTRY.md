@@ -1,4 +1,10 @@
-# AMEBA — Mac 项目入口
+# MORVA — Mac 项目入口
+
+## 最新状态（2026-10-22）
+
+项目现名为 **MORVA**，标语为 **Form changes. Identity remains.**。新 Logo 使用用户提供的米白与陶土橙角色：双触角、双大眼、分节身躯；旧 CA 地址已清空。当前运行仍为浏览器本地模拟。`MILONO_*` 环境变量、`window.Milono` 和 `milono.simulation.v2` 存储键继续兼容；本机统一本地启动 ID 仍为 `milono`。
+
+以下迁移记录及 [MAC_HANDOFF.md](MAC_HANDOFF.md) 保留历史状态，不能据此判断当前线上暂停或部署状态。
 
 这是从 Windows 当前工作目录整理的源码快照，包含未提交的项目文件。
 

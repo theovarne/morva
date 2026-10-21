@@ -1,8 +1,8 @@
-# MILONO Specimens
+# MORVA Specimens
 
 ## Definition
 
-A specimen is one instantiated MILONO organism generated from one cryptographic substrate.
+A specimen is one instantiated MORVA organism generated from one cryptographic substrate.
 
 ```text
 sk_A → identity_A + body_A → Specimen A

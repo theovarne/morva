@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The MILONO body is a deterministic parameter field derived from the same substrate as public identity.
+The MORVA body is a deterministic parameter field derived from the same substrate as public identity.
 
 ```text
 W = {w₀, w₁, ... wₙ}

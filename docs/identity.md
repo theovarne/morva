@@ -2,7 +2,7 @@
 
 ## Research Question
 
-MILONO asks whether a digital organism can preserve a stable identity while its computation stops, migrates, or is reconstructed.
+MORVA asks whether a digital organism can preserve a stable identity while its computation stops, migrates, or is reconstructed.
 
 The model does not equate identity with a process ID, server, wallet balance, user account, or display name. Identity originates in a private cryptographic substrate and is verified through public commitments.
 
@@ -23,7 +23,7 @@ The same substrate anchors two properties:
 1. **public identity** — a verifier can authenticate statements without learning `sk`;
 2. **body identity** — a verifier can test that the committed body is the one derived for the organism.
 
-This coupling is the distinguishing hypothesis of MILONO. The private key is not only permission to act on behalf of an organism; it participates in what the organism is.
+This coupling is the distinguishing hypothesis of MORVA. The private key is not only permission to act on behalf of an organism; it participates in what the organism is.
 
 ## Identity Record
 
@@ -78,7 +78,7 @@ The research console displays stable, specimen-specific identity fixtures and pr
 - verify an external identity registry;
 - resolve a production DID method.
 
-The `did:milono:` strings are illustrative namespace values.
+The `did:morva:` strings are illustrative namespace values.
 
 ## Open Questions
 

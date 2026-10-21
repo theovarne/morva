@@ -1,4 +1,4 @@
-# MILONO Terminal Reference
+# MORVA Terminal Reference
 
 Source: `terminalCommand()` in [organism.js](../dist/assets/organism.js). This is a browser parser, not a shell, AI chat or RPC console. Input is trimmed, lowercased and whitespace-normalized.
 
@@ -29,20 +29,20 @@ The active parser does **not** support `inspect membrane`, `inspect core`, `insp
 ## Reproducible Walkthrough
 
 ```text
-milono@organism:~$ inspect identity
-did:milono:7F2A91C4
+morva@organism:~$ inspect identity
+did:morva:7F2A91C4
 ... public fixture and commitment fixture ...
 
-milono@organism:~$ stress 1
+morva@organism:~$ stress 1
 stress applied 1.00 / state TUN
 
-milono@organism:~$ wake
+morva@organism:~$ wake
 wake denied / recover environment below risk 52 first
 
-milono@organism:~$ stress 0
+morva@organism:~$ stress 0
 stress applied 0.00 / state TUN
 
-milono@organism:~$ wake
+morva@organism:~$ wake
 LOCAL PASS / simulated continuity confirmed / ACTIVE
 ```
 

@@ -1,8 +1,8 @@
-# MILONO Architecture
+# MORVA Architecture
 
 ## Scope
 
-MILONO separates a protocol model from its present research implementation.
+MORVA separates a protocol model from its present research implementation.
 
 - **Protocol model** describes how a private substrate could bind public identity, deterministic body, commitments, transitions, and historical continuity.
 - **Current implementation** is a static browser console backed by deterministic local simulation.
@@ -79,7 +79,7 @@ Environment
 Observation
      │
      ▼
-MILONO BODY / W
+MORVA BODY / W
      │
      ▼
 Decision
@@ -205,7 +205,7 @@ The full accepted path from genesis to the current transition must be verifiable
 
 ## Failure Model
 
-MILONO distinguishes three classes of failure:
+MORVA distinguishes three classes of failure:
 
 1. **Environmental insufficiency** — computation becomes unsustainable; enter `TUN` while preserving continuity.
 2. **Transient runtime failure** — execution stops without invalidating identity; recover from the last verified transition.

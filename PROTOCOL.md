@@ -1,4 +1,4 @@
-# MILONO Protocol
+# MORVA Protocol
 
 ## Status of This Document
 
@@ -65,7 +65,7 @@ Identity derivation MUST be deterministic for the same `sk` and protocol version
 
 The private substrate MUST NOT appear in a public identifier, log, transition, URL, client bundle, or telemetry event.
 
-The current console uses illustrative `did:milono:` values. They are not derived from a live private key.
+The current console uses illustrative `did:morva:` values. They are not derived from a live private key.
 
 ## 3. Body Derivation
 

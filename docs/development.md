@@ -21,8 +21,8 @@ The application is native HTML, CSS and JavaScript with Canvas 2D. No frontend f
 Use Node.js 22 or newer. Node.js 20.11+ can run the source, but CI targets 22.
 
 ```bash
-git clone https://github.com/theovarne/milono.git
-cd milono
+git clone https://github.com/theovarne/morva.git
+cd morva
 npm ci
 npm run build
 npm run dev
@@ -88,8 +88,8 @@ After deployment check HTTPS, redirects, canonical URL, social-image origin, ass
 
 ## Publication scope
 
-Website source, protocol notes, fixtures, tests and operational documentation are public. Legacy storage identifiers and dated historical verification notes may retain previous identifiers for compatibility and provenance; they do not define the current brand. Official links are validated against MILONO's current repository, domain and X account.
+Website source, protocol notes, fixtures, tests and operational documentation are public. Legacy storage identifiers and dated historical verification notes may retain previous identifiers for compatibility and provenance; they do not define the current brand. Official links are validated against MORVA's current repository, domain and X account.
 
-No wallet, contract interaction or CA is required to run the project. The header displays the owner-provided public CA `8HzSYtmSxBPQqCDevZHWY5DJvKRB25Lvh7vYYoK2pump`; this is display text, not a wallet integration or an independently verified contract.
+No wallet, contract interaction or CA is required to run the project. The header includes a CA area whose address is intentionally empty; it has no wallet integration or contract lookup.
 
-As of 2026-10-11, production is intentionally paused in Vercel at the owner's request. HTTP 503 with `DEPLOYMENT_PAUSED` is expected; do not unpause or redeploy merely to migrate development machines. See [Mac migration handoff](../MAC_HANDOFF.md) for the current operational state and transfer checklist.
+Production was paused on 2026-10-11 and reopened at the owner's request on 2026-10-22. MORVA is the current brand, with an empty CA area. See [Mac migration handoff](../MAC_HANDOFF.md) for the historical transfer checklist; verify current production state before operational changes.

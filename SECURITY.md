@@ -1,8 +1,8 @@
-# MILONO Security
+# MORVA Security
 
 ## Experimental Status
 
-MILONO is experimental software. The current repository contains a browser-based research console and protocol documentation, not a production key-management, proof, or blockchain system.
+MORVA is experimental software. The current repository contains a browser-based research console and protocol documentation, not a production key-management, proof, or blockchain system.
 
 Do not use the interface to custody significant funds, production credentials, sensitive identity material, or any private key whose compromise would cause harm.
 
@@ -73,7 +73,7 @@ Custom cryptographic primitives are out of scope.
 
 Do not open a public issue containing exploit details, private keys, credentials, or information that would put users at risk.
 
-Use [GitHub private vulnerability reporting](https://github.com/theovarne/milono/security/advisories/new) when available. If the private reporting form is unavailable to your account, withhold sensitive details until a project-controlled private channel is available.
+Use [GitHub private vulnerability reporting](https://github.com/theovarne/morva/security/advisories/new) when available. If the private reporting form is unavailable to your account, withhold sensitive details until a project-controlled private channel is available.
 
 This repository does not publish a personal email address as a security contact.
 
