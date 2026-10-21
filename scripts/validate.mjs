@@ -65,7 +65,7 @@ for (const expected of [
   "https://milono.xyz/",
   "<meta property=\"og:url\" content=\"https://milono.xyz/\">",
   "https://github.com/theovarne/morva",
-  "https://x.com/Milono_sol"
+  "https://x.com/ProjectMORVA"
 ]) {
   if (!html.includes(expected)) errors.push(`index.html missing required marker: ${expected}`);
 }
@@ -98,7 +98,7 @@ const markdownFiles = [
   ...readdirSync(join(root, "docs")).filter(file => file.endsWith(".md")).map(file => `docs/${file}`)
 ];
 const readme = readFileSync(join(root, "README.md"), "utf8");
-for (const marker of ["# MORVA", "## What is MORVA?", "Form changes. Identity remains.", "dist/brand/morva-logo.png", "## Status", "## Run Locally", "## License / Attribution", "https://milono.xyz/", "https://x.com/Milono_sol", "SIMULATION.md", "docs/terminal.md", "THIRD_PARTY_NOTICES.md"]) {
+for (const marker of ["# MORVA", "## What is MORVA?", "Form changes. Identity remains.", "dist/brand/morva-logo.png", "## Status", "## Run Locally", "## License / Attribution", "https://milono.xyz/", "https://x.com/ProjectMORVA", "SIMULATION.md", "docs/terminal.md", "THIRD_PARTY_NOTICES.md"]) {
   if (!readme.includes(marker)) errors.push(`README missing required marker: ${marker}`);
 }
 if (/\b(?:MILNO|AMEBA|AMOEBA)\b/.test(readme)) errors.push("README contains retired public branding");

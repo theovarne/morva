@@ -74,7 +74,7 @@ test("morva public brand, slogan and official social links", async ({ page }) =>
   await expect(page.locator(".specimen-label")).toHaveText("morva / SPECIMEN 001");
   await expect(page.locator(".terminal-form label")).toHaveText("morva@organism:~$");
   await expect(page.locator("#terminal-output")).toContainText("morva RESEARCH CONSOLE");
-  for (const [name, href] of [["X", "https://x.com/Milono_sol"], ["GitHub", "https://github.com/theovarne/morva"]]) {
+  for (const [name, href] of [["X", "https://x.com/ProjectMORVA"], ["GitHub", "https://github.com/theovarne/morva"]]) {
     const link = page.getByRole("link", { name: "morva on " + name, exact: true });
     await expect(link).toHaveAttribute("href", href);
     await expect(link).toHaveAttribute("target", "_blank");

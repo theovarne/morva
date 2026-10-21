@@ -1,6 +1,6 @@
 # MORVA Brand System
 
-The 2026-10-22 website rename uses MORVA, displayed as `morva`, and the tagline “Form changes. Identity remains.” The owner supplied a new ivory and terracotta creature with two antennae, two large eyes, a segmented body, claw feet and a split tail. Its derived logo replaces the earlier single-eye artwork; the research-console architecture and simulation rules are preserved. The retired contract address has been removed. A new header CA area displays only its label; its address is empty. Official destinations remain [Website](https://milono.xyz/), [X](https://x.com/Milono_sol), and [Source](https://github.com/theovarne/morva).
+The 2026-10-22 website rename uses MORVA, displayed as `morva`, and the tagline “Form changes. Identity remains.” The owner supplied a new ivory and terracotta creature with two antennae, two large eyes, a segmented body, claw feet and a split tail. Its derived logo replaces the earlier single-eye artwork; the research-console architecture and simulation rules are preserved. The retired contract address has been removed. A new header CA area displays only its label; its address is empty. Official destinations remain [Website](https://milono.xyz/), [X](https://x.com/ProjectMORVA), and [Source](https://github.com/theovarne/morva).
 
 ## Visual roles
 

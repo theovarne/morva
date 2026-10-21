@@ -8,7 +8,7 @@ MORVA is an experimental digital organism built around a simple distinction: **f
 
 > Form changes. Identity remains.
 
-[Website](https://milono.xyz/) · [X](https://x.com/Milono_sol) · [Source](https://github.com/theovarne/morva) · [Build](https://github.com/theovarne/morva/actions/workflows/ci.yml)
+[Website](https://milono.xyz/) · [X](https://x.com/ProjectMORVA) · [Source](https://github.com/theovarne/morva) · [Build](https://github.com/theovarne/morva/actions/workflows/ci.yml)
 
 ![MORVA research console: the new organism mascot and local specimen telemetry](docs/assets/research-console.png?v=20261022b)
 

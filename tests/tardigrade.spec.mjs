@@ -15,7 +15,7 @@ test("optimized tardigrade console, live links and no retired contract addresses
   await expect(page.locator('link[rel="icon"][type="image/svg+xml"]')).toHaveAttribute("href", "./brand/favicon.svg?v=20261022b");
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://milono.xyz/");
   await expect(page.locator('a[aria-label="morva on GitHub"]')).toHaveAttribute("href", "https://github.com/theovarne/morva");
-  await expect(page.locator('a[aria-label="morva on X"]')).toHaveAttribute("href", "https://x.com/Milono_sol");
+  await expect(page.locator('a[aria-label="morva on X"]')).toHaveAttribute("href", "https://x.com/ProjectMORVA");
   await page.waitForFunction(() => Boolean(window.Milono?.provider));
   await expect(page.locator('script[src="./assets/amoeba.js"]')).toHaveCount(0);
   await expect(page.locator(".weight-cell")).toHaveCount(256);
